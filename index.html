@@ -1,1 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ets K-HAIME | Station d’essence, hôtel, logistique et bateaux à Kalemie</title>
+<meta name="description" content="Ets K-HAIME à Kalemie (RDC) : station d’essence, hôtel, logistique camions et transport par bateaux sur le lac Tanganyika. Contactez-nous sur WhatsApp.">
+<meta name="theme-color" content="#0b2a6b">
+<meta property="og:type" content="website"><meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Ets K-HAIME | Kalemie, RDC">
+<meta property="og:description" content="Station d’essence, hôtel, logistique camions et bateaux. Contactez-nous sur WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b2a6b'/%3E%3Ctext x='32' y='45' font-size='36' font-weight='700' text-anchor='middle' fill='%23ffc107' font-family='Arial'%3EK%3C/text%3E%3C/svg%3E">
+<noscript><style>.rv{opacity:1!important;transform:none!important}</style></noscript>
+<style>
+:root{--bleu:#0b2a6b;--bleu2:#1456c8;--nuit:#0b1b36;--or:#ffc107;--clair:#eef3ff;--texte:#1d2840;--gris:#5b667d;--wa:#1faa59}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--texte);line-height:1.6;background:#fff}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--or);outline-offset:2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+h2{font-size:clamp(1.5rem,3.5vw,2rem);color:var(--bleu);text-align:center}
+.sous{text-align:center;color:var(--gris);margin:8px auto 36px;max-width:620px}
+/* en-tête */
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);box-shadow:0 1px 10px rgba(11,42,107,.12)}
+.barre{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.marque{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--bleu);font-size:1.15rem}
+.marque img{height:46px;width:auto}
+nav{display:flex;align-items:center;gap:22px}
+nav a{font-weight:600;color:var(--bleu)}
+nav a:hover{color:var(--bleu2)}
+.menu{display:none;background:none;border:0;font-size:1.7rem;color:var(--bleu);cursor:pointer}
+/* boutons */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:10px;font-weight:700;border:2px solid transparent;cursor:pointer;font-size:1rem}
+.btn-bleu{background:var(--bleu2);color:#fff}.btn-bleu:hover{background:var(--bleu)}
+.btn-wa{background:var(--wa);color:#fff}.btn-wa:hover{filter:brightness(.92)}
+.btn-ligne{background:#fff;color:var(--bleu);border-color:var(--bleu)}.btn-ligne:hover{background:var(--clair)}
+/* accueil */
+.hero{background:linear-gradient(135deg,#bfdcff 0%,#c9c4ff 100%);text-align:center;padding:80px 0 72px}
+.hero h1{font-size:clamp(2.2rem,6vw,3.6rem);color:var(--bleu);line-height:1.1}
+.devise{font-size:clamp(1.05rem,2.6vw,1.35rem);color:var(--bleu2);font-weight:600;margin:14px 0 8px}
+.liste{color:var(--texte);max-width:720px;margin:0 auto 28px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+/* services */
+.grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.carte{background:#fff;border:1px solid #dfe7fb;border-radius:16px;padding:26px 22px;text-align:center;box-shadow:0 6px 20px rgba(11,42,107,.07);display:flex;flex-direction:column}
+.carte:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(11,42,107,.13)}
+.carte{transition:transform .2s,box-shadow .2s}
+.icone{width:76px;height:76px;border-radius:50%;background:var(--clair);display:grid;place-items:center;font-size:2.2rem;margin:0 auto 14px}
+.carte h3{color:var(--bleu);margin-bottom:8px}
+.carte p{color:var(--gris);font-size:.96rem;flex:1}
+.carte .lien{margin-top:16px;color:var(--wa);font-weight:700}
+/* à propos */
+.apropos{background:var(--clair)}
+.valeurs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:28px}
+.valeur{background:#fff;border-radius:14px;padding:20px;text-align:center}
+.valeur strong{display:block;color:var(--bleu);margin-bottom:4px}
+.valeur span{color:var(--gris);font-size:.93rem}
+.texte-centre{max-width:760px;margin:0 auto;text-align:center;color:var(--texte)}
+/* contact */
+.contacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-bottom:28px}
+.contact{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid #dfe7fb;border-radius:14px;padding:16px;box-shadow:0 4px 14px rgba(11,42,107,.06)}
+.contact:hover{border-color:var(--bleu2)}
+.contact .ico{font-size:1.7rem}
+.contact b{display:block;color:var(--bleu)}
+.contact small{color:var(--gris);word-break:break-word}
+.carte-map{border:0;width:100%;height:320px;border-radius:16px;box-shadow:0 6px 20px rgba(11,42,107,.12)}
+/* pied de page */
+footer{background:var(--nuit);color:#d7def0;text-align:center;padding:30px 0;font-size:.93rem}
+footer a{color:var(--or)}
+footer .liens{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+/* bouton WhatsApp flottant */
+.flottant{position:fixed;right:18px;bottom:18px;z-index:30;background:var(--wa);color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:1.7rem;box-shadow:0 6px 18px rgba(0,0,0,.28)}
+.saut{position:absolute;left:-999px;top:8px;background:var(--or);color:var(--nuit);padding:8px 14px;border-radius:8px;z-index:50;font-weight:700}.saut:focus{left:8px}
+.form{background:#fff;border:1px solid #dfe7fb;border-radius:16px;padding:24px;box-shadow:0 6px 20px rgba(11,42,107,.07);margin-bottom:28px;display:grid;gap:14px}
+.form h3{color:var(--bleu)}
+.form label{display:grid;gap:6px;font-weight:600;color:var(--bleu);font-size:.95rem}
+.form input,.form select,.form textarea{font:inherit;padding:12px;border:1px solid #c7d3f0;border-radius:10px;color:var(--texte);background:#fff}
+.form textarea{min-height:100px;resize:vertical}
+.champs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}.rv.vu{opacity:1;transform:none}
+@media (max-width:760px){
+ .champs{grid-template-columns:1fr}
+ .menu{display:block}
+ nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;padding:18px 20px;gap:14px;box-shadow:0 8px 16px rgba(11,42,107,.12)}
+ nav.ouvert{display:flex}
+ .btn-entete{display:none}
+ section{padding:48px 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.carte{transition:none}.rv{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<a class="saut" href="#contenu">Aller au contenu</a>
+
+<header>
+ <div class="wrap barre">
+  <a class="marque" href="#accueil" aria-label="Ets K-HAIME, accueil">
+   <img src="logo.png" alt="Logo Ets K-HAIME" onerror="this.style.display='none'">
+   <span>Ets K-HAIME</span>
+  </a>
+  <button class="menu" id="menu" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+  <nav id="nav" aria-label="Navigation principale">
+   <a href="#accueil">Accueil</a>
+   <a href="#services">Services</a>
+   <a href="#apropos">À propos</a>
+   <a href="#contact">Contact</a>
+   <a class="btn btn-wa btn-entete" data-wa="Bonjour, je vous contacte depuis votre site web." target="_blank" rel="noopener">WhatsApp</a>
+  </nav>
+ </div>
+</header>
+
+<main id="contenu">
+<section class="hero" id="accueil">
+ <div class="wrap">
+  <h1>Ets K-HAIME</h1>
+  <p class="devise">Construire Notre Pays — Des solutions fiables à Kalemie</p>
+  <p class="liste">Station d’essence · Hôtel · Logistique camions · Transport par bateaux, au service de la communauté en RDC.</p>
+  <div class="actions">
+   <a class="btn btn-bleu" href="#services">Nos services →</a>
+   <a class="btn btn-wa" data-wa="Bonjour, je souhaite des informations sur vos services." target="_blank" rel="noopener">💬 Nous écrire sur WhatsApp</a>
+  </div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="wrap">
+  <h2>Nos services</h2>
+  <p class="sous">Quatre activités pour répondre à vos besoins, avec sérieux et proximité.</p>
+  <div class="grille rv">
+   <article class="carte">
+    <div class="icone" aria-hidden="true">⛽</div>
+    <h3>Station d’essence</h3>
+    <p>Carburant de qualité, service rapide et sécurisé pour les véhicules et les professionnels.</p>
+    <a class="lien" data-wa="Bonjour, je souhaite des informations sur la station d’essence." target="_blank" rel="noopener">Demander sur WhatsApp →</a>
+   </article>
+   <article class="carte">
+    <div class="icone" aria-hidden="true">🏨</div>
+    <h3>Hôtel</h3>
+    <p>Hébergement confortable, accueil chaleureux et restauration au cœur de Kalemie.</p>
+    <a class="lien" data-wa="Bonjour, je souhaite réserver une chambre à l’hôtel." target="_blank" rel="noopener">Réserver sur WhatsApp →</a>
+   </article>
+   <article class="carte">
+    <div class="icone" aria-hidden="true">🚛</div>
+    <h3>Logistique camions</h3>
+    <p>Transport et logistique fiables, avec une flotte de camions pour vos livraisons partout en RDC.</p>
+    <a class="lien" data-wa="Bonjour, je souhaite un devis pour un transport par camion." target="_blank" rel="noopener">Demander un devis →</a>
+   </article>
+   <article class="carte">
+    <div class="icone" aria-hidden="true">🚢</div>
+    <h3>Bateaux</h3>
+    <p>Traversées du lac Tanganyika pour passagers et marchandises : Kalemie, Kigoma, Uvira et Moba.</p>
+    <a class="lien" data-wa="Bonjour, je souhaite des informations sur les traversées en bateau." target="_blank" rel="noopener">Se renseigner →</a>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="apropos" id="apropos">
+ <div class="wrap">
+  <h2>À propos</h2>
+  <p class="sous">Une entreprise de Kalemie engagée pour le développement du pays.</p>
+  <p class="texte-centre">Ets K-HAIME regroupe plusieurs activités complémentaires : énergie, hébergement, transport routier et transport par bateaux. Notre devise, « Construire Notre Pays », guide chacune de nos actions au quotidien.</p>
+  <div class="valeurs rv">
+   <div class="valeur"><strong>Fiabilité</strong><span>Des services sur lesquels vous pouvez compter.</span></div>
+   <div class="valeur"><strong>Proximité</strong><span>Une équipe locale, à l’écoute de ses clients.</span></div>
+   <div class="valeur"><strong>Qualité</strong><span>Le souci du détail dans chaque prestation.</span></div>
+  </div>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="wrap">
+  <h2>Nous trouver</h2>
+  <p class="sous">Choisissez le moyen qui vous convient. Nous répondons le plus vite possible.</p>
+  <div class="contacts rv">
+   <a class="contact" data-wa="Bonjour, je souhaite vous contacter." target="_blank" rel="noopener"><span class="ico">💬</span><span><b>WhatsApp</b><small>Écrivez-nous maintenant</small></span></a>
+   <a class="contact" id="c-tel"><span class="ico">📞</span><span><b>Téléphone</b><small id="t-tel"></small></span></a>
+   <a class="contact" id="c-mail"><span class="ico">✉️</span><span><b>E-mail</b><small id="t-mail"></small></span></a>
+   <a class="contact" id="c-map" target="_blank" rel="noopener"><span class="ico">📍</span><span><b>Adresse</b><small id="t-adresse"></small></span></a>
+   <a class="contact" id="c-fb" target="_blank" rel="noopener" hidden><span class="ico">👍</span><span><b>Facebook</b><small>Suivez nos actualités</small></span></a>
+  </div>
+  <form class="form rv" id="formulaire">
+   <h3>Écrivez-nous</h3>
+   <div class="champs">
+    <label>Votre nom<input name="nom" required autocomplete="name"></label>
+    <label>Service concerné<select name="service"><option>Station d’essence</option><option>Hôtel</option><option>Logistique camions</option><option>Bateaux</option><option>Autre demande</option></select></label>
+   </div>
+   <label>Votre message<textarea name="message" required></textarea></label>
+   <button class="btn btn-wa" type="submit">💬 Envoyer sur WhatsApp</button>
+  </form>
+  <iframe class="carte-map" id="map" title="Carte : Ets K-HAIME à Kalemie" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="liens"><a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#apropos">À propos</a><a href="#contact">Contact</a></div>
+  <p><strong>Ets K-HAIME</strong> · <span id="f-adresse"></span></p>
+  <p>© <span id="annee"></span> Ets K-HAIME — Tous droits réservés.</p>
+ </div>
+</footer>
+
+<a class="flottant" data-wa="Bonjour, je vous contacte depuis votre site web." target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp">💬</a>
+
+<script>
+/* ===== À MODIFIER : vos vraies coordonnées ===== */
+const CONFIG = {
+  whatsapp: "243832049572",          // indicatif + numéro, sans « + », sans espaces ni « 0 » initial
+  telephone: "+243832049572",        // numéro affiché et appelé
+  email: "lumieresamson090@gmail.com",
+  adresse: "Kalemie, Tanganyika, RDC",
+  facebook: ""                       // lien de la page Facebook (laisser vide pour la masquer)
+};
+/* =============================================== */
+
+document.querySelectorAll("[data-wa]").forEach(function (a) {
+  a.href = "https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(a.dataset.wa);
+});
+document.getElementById("c-tel").href = "tel:" + CONFIG.telephone.replace(/\s/g, "");
+document.getElementById("t-tel").textContent = CONFIG.telephone;
+document.getElementById("c-mail").href = "mailto:" + CONFIG.email;
+document.getElementById("t-mail").textContent = CONFIG.email;
+document.getElementById("t-adresse").textContent = CONFIG.adresse;
+document.getElementById("f-adresse").textContent = CONFIG.adresse;
+document.getElementById("c-map").href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("Ets K-HAIME " + CONFIG.adresse);
+document.getElementById("map").src = "https://www.google.com/maps?q=" + encodeURIComponent(CONFIG.adresse) + "&output=embed";
+if (CONFIG.facebook) { var fb = document.getElementById("c-fb"); fb.href = CONFIG.facebook; fb.hidden = false; }
+document.getElementById("annee").textContent = new Date().getFullYear();
+
+document.getElementById("formulaire").addEventListener("submit", function (e) {
+  e.preventDefault();
+  var f = e.target;
+  var msg = "Bonjour, je suis " + f.nom.value.trim() + ".\nService : " + f.service.value + "\n" + f.message.value.trim();
+  window.open("https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
+  f.reset();
+});
+
+var ld = document.createElement("script");
+ld.type = "application/ld+json";
+ld.textContent = JSON.stringify({"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Ets K-HAIME",
+  "description": "Station d’essence, hôtel, logistique camions et bateaux à Kalemie", "telephone": CONFIG.telephone,
+  "email": CONFIG.email, "address": {"@type": "PostalAddress", "addressLocality": "Kalemie", "addressCountry": "CD"},
+  "sameAs": CONFIG.facebook ? [CONFIG.facebook] : []});
+document.head.appendChild(ld);
+
+var rv = document.querySelectorAll(".rv");
+if ("IntersectionObserver" in window) {
+  var io = new IntersectionObserver(function (l) { l.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add("vu"); io.unobserve(x.target); } }); }, {threshold: 0.12});
+  rv.forEach(function (n) { io.observe(n); });
+} else { rv.forEach(function (n) { n.classList.add("vu"); }); }
+
+var bouton = document.getElementById("menu"), nav = document.getElementById("nav");
+bouton.addEventListener("click", function () {
+  var ouvert = nav.classList.toggle("ouvert");
+  bouton.setAttribute("aria-expanded", ouvert);
+});
+nav.addEventListener("click", function (e) { if (e.target.tagName === "A") { nav.classList.remove("ouvert"); bouton.setAttribute("aria-expanded", "false"); } });
+</script>
+</body>
+</html>
 
