@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://lumieresamson090-debug.github.io/Ets-k-haim/sitemap.xml
